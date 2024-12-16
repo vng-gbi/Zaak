@@ -2,7 +2,7 @@ let respecConfig = {
 //  useLogo: true,
 //  useLabel: true,
 //  license: "eupl",
-  shortName: "Respec-template",
+  shortName: "Zkn",
   pubDomain: "hl",
 
   // Zie de globale property 'localizationStrings/nl' voor de lijst met toegestane specificatie-types
@@ -18,8 +18,8 @@ let respecConfig = {
   //previousPublishDate: "2022-06-24",
   //previousPublishVersion: "0.0.4",
   
-  title: "Respec documentatie generatie",
-  subtitle: "Tevens een voorbeeld van een gegenereerd Respec document",
+  title: "Zaak",
+  subtitle: "Zaak is een submodel van ontologie Inkomen",
   content: {"mermaid": "", "ch01": "informative", "ch02": ""},
 //  authors:
 //    [
@@ -32,12 +32,12 @@ let respecConfig = {
   editors:
     [
       {
-        name: "Robert Melskens",
+        name: "Jan Brinkkemper",
         company: "VNG Realisatie",
         companyURL: "https://vng.nl/artikelen/vng-realisatie",
       }
     ],
-  github: "https://github.com/VNG-Realisatie/VNG-R-Respec-Template",
+  github: "https://github.com/VNG-Realisatie/Zaak",
 
   //  maxTocLevel: 2,
 
@@ -45,7 +45,7 @@ let respecConfig = {
   alternateFormats: [
       {
           label: "pdf",
-          uri: "hl-Respec-template-0.2.0.pdf",
+          uri: "Zaak.pdf",
   //        uri: "Respec-bij-VNG-R.pdf",
       },
     ],
