@@ -1,7 +1,7 @@
          <h2>Gegevensdefinitie</h2>
          <p><b>Deze tekst is normatief.</b>
-            <!--SIM-InkomenModellen-1.0-1-20230101-20250306-142515 imvertor 4.0.0--></p>
-         <div class="imageinfo overview"><img src="Images/EAID_3ED8E805_2DDB_460a_A6CD_CF3A4E0F226A.png" usemap="#imagemap-EAID_3ED8E805_2DDB_460a_A6CD_CF3A4E0F226A" alt="Diagram: Zaak- overzicht"><map name="imagemap-EAID_3ED8E805_2DDB_460a_A6CD_CF3A4E0F226A"><area shape="rect" alt="Aanvraag" coords="75,68,212,177" href="#global_class_Zaak_Aanvraag"><area shape="rect" alt="Zaak" coords="48,281,239,420" href="#global_class_Zaak_Zaak"><area shape="rect" alt="Vaststelling" coords="349,281,570,438" href="#global_class_Zaak_Vaststelling"></map><p><b>Zaak- overzicht</b>
+            <!--SIM-InkomenModellen-1.0-1-20230101-20250526-154051 imvertor 4.0.0--></p>
+         <div class="imageinfo overview"><img src="Images/EAID_3ED8E805_2DDB_460a_A6CD_CF3A4E0F226A.png" usemap="#imagemap-EAID_3ED8E805_2DDB_460a_A6CD_CF3A4E0F226A" alt="Diagram: Zaak- overzicht"><map name="imagemap-EAID_3ED8E805_2DDB_460a_A6CD_CF3A4E0F226A"><area shape="rect" alt="Organisatie::Medewerker" coords="48,748,185,858" href="#global_class_Zaak_OrganisatieMedewerker"><area shape="rect" alt="Organisatie::Organisatorische eenheid" coords="259,748,395,858" href="#global_class_Zaak_OrganisatieOrganisatorischeeenheid"><area shape="rect" alt="Betrokkene" coords="122,554,290,663" href="#global_class_Zaak_Betrokkene"><area shape="rect" alt="Rol" coords="406,554,595,663" href="#global_class_Zaak_Rol"><area shape="rect" alt="Aanvraag" coords="138,68,275,178" href="#global_class_Zaak_Aanvraag"><area shape="rect" alt="Zaak" coords="111,282,302,421" href="#global_class_Zaak_Zaak"><area shape="rect" alt="Vaststelling" coords="413,282,635,439" href="#global_class_Zaak_Vaststelling"></map><p><b>Zaak- overzicht</b>
                
                <p></p>
                </p>
@@ -108,6 +108,20 @@
                      <tr>
                         <th>Relatienaam met kardinaliteiten</th>
                         <th>Definitie</th>
+                     </tr>
+                     <tr>
+                        <td>
+                           
+                           <a class="link" href="#global_class_Zaak_Betrokkene">Betrokkene</a>
+                           
+                           [ 1 .. * ]
+                           
+                           <a class="link" href="#detail_association_Zaak_Betrokkene_heeftrolin">heeft rol in</a>
+                           
+                           Zaak
+                           [ 1 .. * ]
+                           </td>
+                        <td></td>
                      </tr>
                      <tr>
                         <td>
@@ -226,6 +240,287 @@
                
                </section>
             
+            <section id="global_class_Zaak_Betrokkene">
+               <h4>   Betrokkene</h4>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>Betrokkene</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td> </td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>Een organisatorische eenheid danwel medewerker die een rol kan spelen bij een zaak.</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td> </td>
+                     </tr>
+                     <tr>
+                        <th>Datum opname</th>
+                        <td> </td>
+                     </tr>
+                     <tr>
+                        <th>Unieke aanduiding</th>
+                        <td> </td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie abstract object</th>
+                        <td>Nee</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               <h5>Overzicht attributen  </h5>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 50%;"></colgroup>
+                  <colgroup style="width: 10%;"></colgroup>
+                  <colgroup style="width: 10%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Attribuutnaam</th>
+                        <th>Definitie</th>
+                        <th>Formaat</th>
+                        <th>Card</th>
+                     </tr>
+                     <tr>
+                        <td>
+                           <a class="link" href="#detail_attribute_Zaak_Betrokkene_Naam">Naam</a>
+                           </td>
+                        <td></td>
+                        <td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/def-st-mim-20220217/#primitive-datatypes">Character­String</a>
+                           </td>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <a class="link" href="#detail_attribute_Zaak_Betrokkene_Identificatie">Identificatie</a>
+                           </td>
+                        <td></td>
+                        <td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/def-st-mim-20220217/#primitive-datatypes">Character­String</a>
+                           </td>
+                        <td>1</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               
+               <h5>Overzicht relaties  </h5>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 50%;"></colgroup>
+                  <colgroup style="width: 50%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Relatienaam met kardinaliteiten</th>
+                        <th>Definitie</th>
+                     </tr>
+                     <tr>
+                        <td>
+                           Betrokkene
+                           [ 1 .. * ]
+                           
+                           <a class="link" href="#detail_association_Zaak_Betrokkene_heeftrolin">heeft rol in</a>
+                           
+                           
+                           <a class="link" href="#global_class_Zaak_Zaak">Zaak</a>
+                           
+                           [ 1 .. * ]
+                           </td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td>
+                           
+                           <a class="link" href="#global_class_Zaak_Rol">Rol</a>
+                           
+                           [ 0 .. * ]
+                           
+                           <a class="link" href="#detail_association_Zaak_Rol_heeft">heeft</a>
+                           
+                           Betrokkene
+                           [ 1 ]
+                           </td>
+                        <td></td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               
+               </section>
+            
+            <section id="global_class_Zaak_Rol">
+               <h4>   Rol</h4>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>Rol</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td> </td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>De taken, rechten en/of verplichtingen die een specifieke betrokkene heeft ten aanzien
+                           van een specifieke zaak.</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td> </td>
+                     </tr>
+                     <tr>
+                        <th>Datum opname</th>
+                        <td> </td>
+                     </tr>
+                     <tr>
+                        <th>Unieke aanduiding</th>
+                        <td> </td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie abstract object</th>
+                        <td>Nee</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               <h5>Overzicht attributen  </h5>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 50%;"></colgroup>
+                  <colgroup style="width: 10%;"></colgroup>
+                  <colgroup style="width: 10%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Attribuutnaam</th>
+                        <th>Definitie</th>
+                        <th>Formaat</th>
+                        <th>Card</th>
+                     </tr>
+                     <tr>
+                        <td>
+                           <a class="link" href="#detail_attribute_Zaak_Rol_Rolomschrijving">Rolomschrijving</a>
+                           </td>
+                        <td>Algemeen gehanteerde benaming van de aard van de ROL</td>
+                        <td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/def-st-mim-20220217/#primitive-datatypes">Character­String</a>
+                           </td>
+                        <td>1</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               
+               <h5>Overzicht relaties  </h5>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 50%;"></colgroup>
+                  <colgroup style="width: 50%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Relatienaam met kardinaliteiten</th>
+                        <th>Definitie</th>
+                     </tr>
+                     <tr>
+                        <td>
+                           Rol
+                           [ 0 .. * ]
+                           
+                           <a class="link" href="#detail_association_Zaak_Rol_heeft">heeft</a>
+                           
+                           
+                           <a class="link" href="#global_class_Zaak_Betrokkene">Betrokkene</a>
+                           
+                           [ 1 ]
+                           </td>
+                        <td></td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               
+               </section>
+            
+            <section id="global_class_Zaak_OrganisatieMedewerker">
+               <h4>   Organisatie::Medewerker</h4>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>Organisatie::Medewerker</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td> </td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td> </td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td> </td>
+                     </tr>
+                     <tr>
+                        <th>Datum opname</th>
+                        <td> </td>
+                     </tr>
+                     <tr>
+                        <th>Unieke aanduiding</th>
+                        <td> </td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie abstract object</th>
+                        <td>Nee</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               <h5>Overzicht relaties  </h5>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 50%;"></colgroup>
+                  <colgroup style="width: 50%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Relatienaam met kardinaliteiten</th>
+                        <th>Definitie</th>
+                     </tr>
+                     <tr>
+                        <td>
+                           Organisatie::Medewerker
+                           is specialisatie van
+                           
+                           <a class="link" href="#global_class_Zaak_Betrokkene">Betrokkene</a>
+                           
+                           </td>
+                        <td>Een organisatorische eenheid danwel medewerker die een rol kan spelen bij een zaak.</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               
+               </section>
+            
             <section id="global_class_Zaak_Aanvraag">
                <h4>   Aanvraag</h4>
                
@@ -287,6 +582,70 @@
                            [ 1 ]
                            </td>
                         <td></td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               
+               </section>
+            
+            <section id="global_class_Zaak_OrganisatieOrganisatorischeeenheid">
+               <h4>   Organisatie::Organisatorische eenheid</h4>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>Organisatie::Organisatorische eenheid</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td> </td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td> </td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td> </td>
+                     </tr>
+                     <tr>
+                        <th>Datum opname</th>
+                        <td> </td>
+                     </tr>
+                     <tr>
+                        <th>Unieke aanduiding</th>
+                        <td> </td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie abstract object</th>
+                        <td>Nee</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               <h5>Overzicht relaties  </h5>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 50%;"></colgroup>
+                  <colgroup style="width: 50%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Relatienaam met kardinaliteiten</th>
+                        <th>Definitie</th>
+                     </tr>
+                     <tr>
+                        <td>
+                           Organisatie::Organisatorische eenheid
+                           is specialisatie van
+                           
+                           <a class="link" href="#global_class_Zaak_Betrokkene">Betrokkene</a>
+                           
+                           </td>
+                        <td>Een organisatorische eenheid danwel medewerker die een rol kan spelen bij een zaak.</td>
                      </tr>
                   </tbody>
                </table>
@@ -777,6 +1136,334 @@
                      </section>
                   </section>
                
+               <section id="detail_class_Zaak_Betrokkene">
+                  <h5>   Betrokkene</h5>
+                  
+                  <section id="detail_attribute_Zaak_Betrokkene_Naam">
+                     <h6>Attribuutsoort details  <a href="#global_class_Zaak_Betrokkene">Betrokkene</a> Naam</h6>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Naam</th>
+                              <td>Naam</td>
+                           </tr>
+                           <tr>
+                              <th>Herkomst</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Herkomst definitie</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Datum opname</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Mogelijk geen waarde</th>
+                              <td>Nee</td>
+                           </tr>
+                           <tr>
+                              <th>Indicatie kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Indicatie authentiek</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Lengte</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Formaat</th>
+                              <td>
+                                 <a class="external-link" href="https://docs.geostandaarden.nl/mim/def-st-mim-20220217/#primitive-datatypes">Character­String</a>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Patroon</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Indicatie afleidbaar</th>
+                              <td>Zie package</td>
+                           </tr>
+                           <tr>
+                              <th>Waarde afleidbaar</th>
+                              <td>Nee</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     </section>
+                  
+                  <section id="detail_attribute_Zaak_Betrokkene_Identificatie">
+                     <h6>Attribuutsoort details  <a href="#global_class_Zaak_Betrokkene">Betrokkene</a> Identificatie</h6>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Naam</th>
+                              <td>Identificatie</td>
+                           </tr>
+                           <tr>
+                              <th>Herkomst</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Herkomst definitie</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Datum opname</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Mogelijk geen waarde</th>
+                              <td>Nee</td>
+                           </tr>
+                           <tr>
+                              <th>Indicatie kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Indicatie authentiek</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Lengte</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Formaat</th>
+                              <td>
+                                 <a class="external-link" href="https://docs.geostandaarden.nl/mim/def-st-mim-20220217/#primitive-datatypes">Character­String</a>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Patroon</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Indicatie afleidbaar</th>
+                              <td>Zie package</td>
+                           </tr>
+                           <tr>
+                              <th>Waarde afleidbaar</th>
+                              <td>Nee</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     </section>
+                  
+                  <section id="detail_association_Zaak_Betrokkene_heeftrolin">
+                     <h6>Relatiesoort details  <a href="#global_class_Zaak_Betrokkene">Betrokkene</a> heeft rol in</h6>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Naam</th>
+                              <td>heeft rol in</td>
+                           </tr>
+                           <tr>
+                              <th>Gerelateerd objecttype</th>
+                              <td>
+                                 <a class="link" href="#global_class_Zaak_Zaak">Zaak</a>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Herkomst</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Herkomst definitie</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Datum opname</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Mogelijk geen waarde</th>
+                              <td>Nee</td>
+                           </tr>
+                           <tr>
+                              <th>Indicatie in onderzoek</th>
+                              <td>Nee</td>
+                           </tr>
+                           <tr>
+                              <th>Aanduiding strijdigheid/nietigheid</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Indicatie kardinaliteit</th>
+                              <td>1 .. *</td>
+                           </tr>
+                           <tr>
+                              <th>Indicatie authentiek</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td> </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                     </section>
+                  </section>
+               
+               <section id="detail_class_Zaak_Rol">
+                  <h5>   Rol</h5>
+                  
+                  <section id="detail_attribute_Zaak_Rol_Rolomschrijving">
+                     <h6>Attribuutsoort details  <a href="#global_class_Zaak_Rol">Rol</a> Rolomschrijving</h6>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Naam</th>
+                              <td>Rolomschrijving</td>
+                           </tr>
+                           <tr>
+                              <th>Herkomst</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>Algemeen gehanteerde benaming van de aard van de ROL</td>
+                           </tr>
+                           <tr>
+                              <th>Herkomst definitie</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Datum opname</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Mogelijk geen waarde</th>
+                              <td>Nee</td>
+                           </tr>
+                           <tr>
+                              <th>Indicatie kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Indicatie authentiek</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Lengte</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Formaat</th>
+                              <td>
+                                 <a class="external-link" href="https://docs.geostandaarden.nl/mim/def-st-mim-20220217/#primitive-datatypes">Character­String</a>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Patroon</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Indicatie afleidbaar</th>
+                              <td>Zie package</td>
+                           </tr>
+                           <tr>
+                              <th>Waarde afleidbaar</th>
+                              <td>Nee</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     </section>
+                  
+                  <section id="detail_association_Zaak_Rol_heeft">
+                     <h6>Relatiesoort details  <a href="#global_class_Zaak_Rol">Rol</a> heeft</h6>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Naam</th>
+                              <td>heeft</td>
+                           </tr>
+                           <tr>
+                              <th>Gerelateerd objecttype</th>
+                              <td>
+                                 <a class="link" href="#global_class_Zaak_Betrokkene">Betrokkene</a>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Herkomst</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Herkomst definitie</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Datum opname</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Mogelijk geen waarde</th>
+                              <td>Nee</td>
+                           </tr>
+                           <tr>
+                              <th>Indicatie in onderzoek</th>
+                              <td>Nee</td>
+                           </tr>
+                           <tr>
+                              <th>Aanduiding strijdigheid/nietigheid</th>
+                              <td> </td>
+                           </tr>
+                           <tr>
+                              <th>Indicatie kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Indicatie authentiek</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td> </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                     </section>
+                  </section>
+               
+               
                <section id="detail_class_Zaak_Aanvraag">
                   <h5>   Aanvraag</h5>
                   
@@ -842,6 +1529,7 @@
                      
                      </section>
                   </section>
+               
                </section>
             
             
@@ -895,4 +1583,3 @@
                   </section>
                </section>
             </section>
-      </section>
